@@ -1,0 +1,11 @@
+Console.Write("Enter a sentence :");
+                string sentence = Console.ReadLine();
+                Console.Write("How many time ? ");
+                int time=Convert.ToInt32(Console.ReadLine());
+                int counter=0;
+                while(counter<time)
+                {
+                    Console.WriteLine(sentence);
+                    counter++;
+                }
+                Console.ReadKey();
